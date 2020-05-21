@@ -1,0 +1,59 @@
+{
+   "common": {
+      "name": "vue",
+      "version": "0.1.0",
+      "news": {
+         "0.1.0": {
+            "en": "Beta",
+            "de": "Beta"
+         }
+      },
+      "title": "Vue Extension",
+      "titleLang": {
+         "en": "Vue Extension",
+         "de": "Vue Erweiterung"
+      },
+      "desc": {
+         "en": "Use Vue as framework for web pages",
+         "de": "Benutze Vue als Framework für Webseiten"
+      },
+      "authors": [
+         "Armin Junge <armin.junge.81@gmail.com>"
+      ],
+      "keywords": [
+         "web",
+         "GUI",
+         "Visualization",
+         "Vue"
+      ],
+      "license": "MIT",
+      "platform": "Javascript/Node.js",
+      "icon": "admin/logo-vue.svg",
+      "enabled": true,
+      "extIcon": "https://raw.githubusercontent.com/Vertumnus/ioBroker.vue/master/admin/logo-vue.svg",
+      "readme": "https://raw.githubusercontent.com/Vertumnus/ioBroker.vue/master/README.md",
+      "loglevel": "info",
+      "mode": "extension",
+      "singleton": true,
+      "type": "visualization",
+      "webExtension": "webextension.js",
+      "onlyWWW": true,
+      "compact": true,
+      "materialize": true,
+      "dependencies": [
+         {
+            "admin": ">=3.0.0",
+            "web": ">=2.4.10"
+         }
+      ],
+      "restartAdapters": [
+         "web"
+      ]
+   },
+   "native": {
+      "route": "vue",
+      "webInstance": "*"
+   },
+   "objects": [],
+   "instanceObjects": []
+}

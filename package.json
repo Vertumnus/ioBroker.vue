@@ -1,0 +1,23 @@
+{
+   "name": "ioBroker.vue",
+   "description": "ioBroker Vue Web Extension",
+   "version": "0.1.0",
+   "keywords": [
+      "ioBroker",
+      "Smarthome",
+      "Home Automation",
+      "Adapter",
+      "web",
+      "GUI",
+      "Visualization",
+      "Vue"
+   ],
+   "homepage": "https://github.com/Vertumnus/ioBroker.vue",
+   "bugs": "https://github.com/Vertumnus/ioBroker.vue/issues",
+   "repository": "github:Vertumnus/ioBroker.vue",
+   "author": "Armin Junge",
+   "contributors": [],
+   "dependencies": {
+      "vue": "^2.6.11"
+   }
+}
